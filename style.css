@@ -1,0 +1,201 @@
+* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.f-nav {
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+}
+
+.bungkus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+
+.nama {
+    display: flex;
+    text-decoration: row;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.namaawal {
+
+    color: green;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.namaakhir {
+    color: white;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigasi li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigasi li a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigasi li a:hover {
+    color: green;
+    transition: all .2s ease-in-out;
+}
+
+.utama {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.utama:hover {
+    color: black !important;
+}
+
+.navigasi li img {
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.navigasi li img:hover {
+    transition: all .5s ease-in-out;
+    width: 70px;
+    height: 70px;
+}
+
+.judul {
+    background-color: honeydew;
+}
+
+.judul h1 {
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+    color: green;
+    margin: 0;
+}
+
+.slogan {
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.alamattoko {
+    background-color: honeydew;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.alamattoko p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    margin: 0;
+}
+
+.tagihan {
+    margin: 0;
+}
+
+.invoice {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.data {
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.daftartagihan {
+    width: 100%;
+
+}
+
+.daftartagihan th {
+    background-color: khaki;
+}
+
+.daftartagihan td {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kata-kata{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+
+.baru{
+    padding left: 30px;
+
+    width: 100%;
+    height: 30%;
+    background-color;
+}
+
+.baru p{
+    margin: 0;
+    padding-left: 30px;
+    height: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: green;
+}
+
+.baru pre{
+    padding-left: 30px;
+    font-size: 15px;
+    color: crimson;
+}
+
+.baru h1{
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
